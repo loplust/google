@@ -1,0 +1,154 @@
+body {
+width: 100%;
+margin: 0;
+font-family: 'Roboto', sans-serif;
+height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header > .letra {
+    margin-right: 10px;
+}
+header > .icono {
+    margin-right: 10px;
+}
+header > .letra > a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 10px;
+}
+header a:hover {
+    text-decoration: underline black;
+}
+header > .icono > button {
+    border: none;
+    background-color: white;
+    text-decoration: transparent;
+}
+header > .icono > button > img {
+    width: 25px;
+}
+header > .icono > button > .letter {
+    border-radius: 50%;
+    width: 30px;
+}
+main {
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main > .texto {
+    
+    
+}
+main > .texto > form > .barra-texto {
+    display: flex;
+    width: 600px;
+    border: 1px solid #dfe1e5;
+border-radius: 24px;
+height: 45px;
+align-items:center ;
+justify-content: space-evenly;
+margin-top: 20px;
+
+}
+main > .texto > form > .barra-texto:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+border-color:rgba(223,225,229,0) ;
+}
+main > .texto > form > .barra-texto > #barra-text {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    border: none;
+    height: 35px;
+    outline: none;
+}
+main > .texto > form > .boton-texto {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+ .search  {
+height: 40px;
+border: none;
+margin-right: 10px;
+font-size: 14px;
+background-color: #f8f9fa;
+cursor: pointer;
+color: #3c4043;
+}
+
+ .lucky  {
+    height: 40px;
+    border: none;
+    margin-right: 10px;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    color: #3c4043;
+    }
+
+ .search:hover {
+    border: .5px solid #dadce0 ;
+    border-radius: 4px;
+}
+
+.lucky:hover {
+    border: .5px solid #dadce0 ;
+    border-radius: 4px;
+}
+footer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #f2f2f2;
+}
+footer > div > p {
+display: flex;
+padding-left: 50px;
+color: grey;
+}
+footer > .lista {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid rgb(194, 194, 194);
+}
+footer > .lista > ul {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+footer > .lista > ul > a {
+    text-decoration: none;
+    font-size: 14px;
+    color: grey;
+}
+footer > .lista > .privacy {
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+}
+footer > .lista > .privacy > ul  {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+footer > .lista > .privacy > ul > a {
+    text-decoration: none;
+    font-size: 14px;
+    color: grey;
+}
